@@ -1,7 +1,7 @@
 import pandas as pd, plotly.express as px, plotly.graph_objects as go, streamlit as st
-from src.model import run_pipeline
+from model import run_pipeline
 from live_tab import render as render_live
-from src.features import diff
+from features import diff
 
 st.set_page_config(page_title="Sports Analytics ML", layout="wide")
 
