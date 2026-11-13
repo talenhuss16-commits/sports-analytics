@@ -1,7 +1,7 @@
 import pandas as pd, plotly.express as px, streamlit as st
-from src.features import diff
-from src.ev import evaluate
-from src.live import get_feed
+from features import diff
+from ev import evaluate
+from live import get_feed
 
 def render(B):
     P = B["profiles"]
